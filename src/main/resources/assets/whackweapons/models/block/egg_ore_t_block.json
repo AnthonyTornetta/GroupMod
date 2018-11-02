@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures":
+    {
+        "all": "whackweapons:blocks/egg_ore_t_block"
+    }
+}
