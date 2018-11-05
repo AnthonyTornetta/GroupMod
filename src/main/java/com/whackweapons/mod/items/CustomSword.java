@@ -6,15 +6,18 @@ import com.whackweapons.mod.rendering.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
 
-public class ItemBase extends Item implements IHasModel
+public class CustomSword extends ItemSword implements IHasModel
 {
-	public ItemBase(String name)
+	public CustomSword(String name, ToolMaterial material)
 	{
-		setUnlocalizedName(name);
-		setRegistryName(name);
+		super(material);
 		
-		setCreativeTab(CreativeTabs.MISC);
+		setRegistryName(name);
+		setUnlocalizedName(name);
+		
+		setCreativeTab(CreativeTabs.COMBAT);
 		
 		CustomItems.addItem(this);
 	}

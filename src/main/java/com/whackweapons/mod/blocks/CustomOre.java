@@ -2,7 +2,7 @@ package com.whackweapons.mod.blocks;
 
 import java.util.Random;
 
-import com.whackweapons.mod.items.CustomItems;
+import com.whackweapons.mod.items.tools.CustomItems;
 
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
