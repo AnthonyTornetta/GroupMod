@@ -1,7 +1,7 @@
 package com.whackweapons.mod.blocks;
 
 import com.whackweapons.mod.WhackWeapons;
-import com.whackweapons.mod.items.tools.CustomItems;
+import com.whackweapons.mod.items.CustomItems;
 import com.whackweapons.mod.rendering.IHasModel;
 
 import net.minecraft.block.Block;

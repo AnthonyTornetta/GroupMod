@@ -1,7 +1,7 @@
-package com.whackweapons.mod.items;
+package com.whackweapons.mod.items.tools;
 
 import com.whackweapons.mod.WhackWeapons;
-import com.whackweapons.mod.items.tools.CustomItems;
+import com.whackweapons.mod.items.CustomItems;
 import com.whackweapons.mod.rendering.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
