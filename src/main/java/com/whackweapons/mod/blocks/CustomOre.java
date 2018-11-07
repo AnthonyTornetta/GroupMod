@@ -15,14 +15,15 @@ public class CustomOre extends BlockBase
 {
 	private Item drop;
 	
-	public CustomOre(String name, Item drop)
+	public CustomOre(String name, Item drop, float hardness, float resistance, int harvestLevel)
 	{
 		super(name, Material.ROCK);
+		this.drop = drop;
 		
 		setSoundType(SoundType.STONE);
-		setHardness(5.0f);
-		setResistance(15.0f);
-		setHarvestLevel("pickaxe", 2);
+		setHardness(hardness);
+		setResistance(resistance);
+		setHarvestLevel("pickaxe", harvestLevel);
 	}
 	
 	@Override
@@ -31,6 +32,6 @@ public class CustomOre extends BlockBase
 		if(drop != null)
 			return drop;
 		else
-			return new ItemBlock(this);
+			return Item.getItemFromBlock(this);
 	}
 }

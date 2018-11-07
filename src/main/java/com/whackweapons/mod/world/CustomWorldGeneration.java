@@ -57,12 +57,12 @@ public class CustomWorldGeneration implements IWorldGenerator
 	
 	/**
 	 * Adds an ore to be generated to the world
-	 * @param b
-	 * @param minSpawnSize
-	 * @param maxSpawnSize
-	 * @param minY
-	 * @param maxY
-	 * @param chance
+	 * @param b The block to make generate underground
+	 * @param minSpawnSize The minimum vein size
+	 * @param maxSpawnSize The maximum vein size
+	 * @param minY The minimum generation y
+	 * @param maxY The maxomum generation y
+	 * @param chance The chance of it to happen
 	 */
 	public static void addOre(Block b, int minSpawnSize, int maxSpawnSize, int minY, int maxY, int chance)
 	{

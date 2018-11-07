@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.whackweapons.mod.items.tools.CustomBow;
+import com.whackweapons.mod.items.tools.CustomPickaxe;
 import com.whackweapons.mod.items.tools.CustomSword;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBow;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
@@ -41,6 +41,10 @@ public class CustomItems
 	public static final Item RUBY_SWORD = new CustomSword("RUBY_SWORD", RUBY_MATERIAL);
 	public static final Item TOPAZ_SWORD = new CustomSword("TOPAZ_SWORD", SAPPHIRE_MATERIAL);
 	public static final Item SAPPHIRE_SWORD = new CustomSword("SAPPHIRE_SWORD", SAPPHIRE_MATERIAL);
-
+	
+	public static final Item RUBY_PICKAXE = new CustomPickaxe("RUBY_PICKAXE", RUBY_MATERIAL);
+	public static final Item TOPAZ_PICKAXE = new CustomPickaxe("TOPAZ_PICKAXE", SAPPHIRE_MATERIAL);
+	public static final Item SAPPHIRE_PICKAXE = new CustomPickaxe("SAPPHIRE_PICKAXE", SAPPHIRE_MATERIAL);
+	
 	public static void addItem(Item i) { ITEMS.add(i); }
 }
