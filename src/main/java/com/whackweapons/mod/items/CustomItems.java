@@ -3,6 +3,7 @@ package com.whackweapons.mod.items;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.whackweapons.mod.items.tools.CustomAxe;
 import com.whackweapons.mod.items.tools.CustomBow;
 import com.whackweapons.mod.items.tools.CustomPickaxe;
 import com.whackweapons.mod.items.tools.CustomSword;
@@ -45,6 +46,10 @@ public class CustomItems
 	public static final Item RUBY_PICKAXE = new CustomPickaxe("RUBY_PICKAXE", RUBY_MATERIAL);
 	public static final Item TOPAZ_PICKAXE = new CustomPickaxe("TOPAZ_PICKAXE", SAPPHIRE_MATERIAL);
 	public static final Item SAPPHIRE_PICKAXE = new CustomPickaxe("SAPPHIRE_PICKAXE", SAPPHIRE_MATERIAL);
+	
+	public static final Item RUBY_AXE = new CustomAxe("RUBY_AXE", RUBY_MATERIAL);
+	public static final Item TOPAZ_AXE = new CustomAxe("TOPAZ_AXE", RUBY_MATERIAL);
+	public static final Item SAPPHIRE_AXE = new CustomAxe("SAPPHIRE_AXE", RUBY_MATERIAL);
 	
 	public static void addItem(Item i) { ITEMS.add(i); }
 }

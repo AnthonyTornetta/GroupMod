@@ -3,12 +3,15 @@ item.TEST_SWORD.name=Test Sword
 
 item.SAPPHIRE_SWORD.name=Sapphire Sword
 item.SAPPHIRE_PICKAXE.name=Sapphire Pickaxe
+item.SAPPHIRE_ITEM.name=Sapphire
 
 item.TOPAZ_SWORD.name=Topaz Sword
 item.TOPAZ_PICKAXE.name=Topaz Pickaxe
+item.TOPAZ_ITEM.name=Topaz
 
 item.RUBY_SWORD.name=Ruby Sword
 item.RUBY_PICKAXE.name=Ruby Pickaxe
+item.RUBY_ITEM.name=Ruby
 
 tile.SAPPHIRE_ORE_BLOCK.name=Sapphire Ore
 tile.RUBY_ORE_BLOCK.name=Ruby Ore
