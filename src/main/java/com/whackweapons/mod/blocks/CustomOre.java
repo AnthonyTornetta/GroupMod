@@ -10,12 +10,16 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CustomOre extends BlockBase
 {
 	private Item drop;
+	private boolean dropSelf;
 	
-	public CustomOre(String name, Item drop, float hardness, float resistance, int harvestLevel)
+	public CustomOre(String name, Item drop, boolean dropSelf, float hardness, float resistance, int harvestLevel)
 	{
 		super(name, Material.ROCK);
 		this.drop = drop;
@@ -29,7 +33,7 @@ public class CustomOre extends BlockBase
 	@Override
 	public Item getItemDropped(IBlockState state, Random rdm, int fortune)
 	{
-		if(drop != null)
+		if(drop != null && !dropSelf)
 			return drop;
 		else
 			return Item.getItemFromBlock(this);

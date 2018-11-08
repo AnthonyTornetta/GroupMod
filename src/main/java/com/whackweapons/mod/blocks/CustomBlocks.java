@@ -15,10 +15,10 @@ public class CustomBlocks
 	
 	public static final Block
 		CUSTOM_BLOCK = new BlockBase("TEST_BLOCK", Material.ROCK),
-		EGG_ORE_T_BLOCK = new CustomOre("EGG_ORE_T_BLOCK", null, 5.0f, 15.0f, 2),
-		RUBY_ORE_BLOCK = new CustomOre("RUBY_ORE_BLOCK", CustomItems.RUBY_ITEM, 5.0f, 15.0f, 2),
-		SAPPHIRE_ORE_BLOCK = new CustomOre("SAPPHIRE_ORE_BLOCK", CustomItems.SAPPHIRE_ITEM, 5.0f, 15.0f, 2),
-		TOPAZ_ORE_BLOCK = new CustomOre("TOPAZ_ORE_BLOCK", CustomItems.TOPAZ_ITEM, 5.0f, 15.0f, 2);
+		EGG_ORE_T_BLOCK = new CustomOre("EGG_ORE_T_BLOCK", null, true, 5.0f, 15.0f, 2),
+		RUBY_ORE_BLOCK = new CustomOre("RUBY_ORE_BLOCK", CustomItems.RUBY_ITEM, false, 5.0f, 15.0f, 2),
+		SAPPHIRE_ORE_BLOCK = new CustomOre("SAPPHIRE_ORE_BLOCK", CustomItems.SAPPHIRE_ITEM, false, 5.0f, 15.0f, 2),
+		TOPAZ_ORE_BLOCK = new CustomOre("TOPAZ_ORE_BLOCK", CustomItems.TOPAZ_ITEM, false, 5.0f, 15.0f, 2);
 	
 	static
 	{

@@ -2,10 +2,13 @@ package com.whackweapons.mod;
 
 import org.apache.logging.log4j.Logger;
 
+import com.whackweapons.mod.blocks.CustomBlocks;
+import com.whackweapons.mod.items.CustomItems;
 import com.whackweapons.mod.proxy.CommonProxy;
 import com.whackweapons.mod.util.Reference;
 import com.whackweapons.mod.world.CustomWorldGeneration;
 
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -37,6 +40,8 @@ public class WhackWeapons
     public void init(FMLInitializationEvent event)
     {
         logger.info("Whack Weapons is adding some whack things...");
+        
+        GameRegistry.addSmelting(CustomBlocks.RUBY_ORE_BLOCK, new ItemStack(CustomItems.RUBY_ITEM), 20f);
     }
     
     @EventHandler

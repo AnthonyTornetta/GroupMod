@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+	"pattern":
+	[
+		"R",
+		"R",
+		"S"
+	],
+	"keasdy": 
+	{
+		"R":
+		{
+			"item": "whackweapons:ruby_item"
+		},
+		"S":
+		{
+			"item": "minecraft:stick"
+		}
+	},
+	"result":
+	{
+		"item": "whackweapons:ruby_sword"
+	}
+}
