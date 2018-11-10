@@ -6,11 +6,14 @@ import java.util.List;
 import com.whackweapons.mod.items.tools.CustomAxe;
 import com.whackweapons.mod.items.tools.CustomBow;
 import com.whackweapons.mod.items.tools.CustomPickaxe;
+import com.whackweapons.mod.items.tools.CustomShield;
 import com.whackweapons.mod.items.tools.CustomSword;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemShield;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.crafting.ShieldRecipes;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class CustomItems
@@ -36,7 +39,7 @@ public class CustomItems
 	public static final Item SAPPHIRE_ITEM = new ItemBase("SAPPHIRE_ITEM", CreativeTabs.MATERIALS);
 	public static final Item RUBY_ITEM = new ItemBase("RUBY_ITEM", CreativeTabs.MATERIALS);
 	public static final Item TOPAZ_ITEM = new ItemBase("TOPAZ_ITEM", CreativeTabs.MATERIALS);
-	
+
 	public static final Item TEST_BOW = new CustomBow();
 	
 	public static final Item RUBY_SWORD = new CustomSword("RUBY_SWORD", RUBY_MATERIAL);
@@ -50,6 +53,10 @@ public class CustomItems
 	public static final Item RUBY_AXE = new CustomAxe("RUBY_AXE", RUBY_MATERIAL);
 	public static final Item TOPAZ_AXE = new CustomAxe("TOPAZ_AXE", RUBY_MATERIAL);
 	public static final Item SAPPHIRE_AXE = new CustomAxe("SAPPHIRE_AXE", RUBY_MATERIAL);
+	
+	public static final Item RUBY_SHIELD = new CustomShield("RUBY_SHIELD");
+	public static final Item TOPAZ_SHIELD = new CustomShield("TOPAZ_SHIELD");
+	public static final Item SAPPHIRE_SHIELD = new CustomShield("SAPPHIRE_SHIELD");
 	
 	public static void addItem(Item i) { ITEMS.add(i); }
 }
