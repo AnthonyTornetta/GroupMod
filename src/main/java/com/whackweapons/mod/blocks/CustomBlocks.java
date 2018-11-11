@@ -14,7 +14,6 @@ public class CustomBlocks
 	public static final List<Block> BLOCKS = new ArrayList<>();
 	
 	public static final Block
-		CUSTOM_BLOCK = new BlockBase("TEST_BLOCK", Material.ROCK),
 		EGG_ORE_T_BLOCK = new CustomOre("EGG_ORE_T_BLOCK", null, true, 5.0f, 15.0f, 2, "oreEggOreT"),
 		RUBY_ORE_BLOCK = new CustomOre("RUBY_ORE_BLOCK", CustomItems.RUBY_ITEM, false, 5.0f, 15.0f, 2, "oreRuby"),
 		SAPPHIRE_ORE_BLOCK = new CustomOre("SAPPHIRE_ORE_BLOCK", CustomItems.SAPPHIRE_ITEM, false, 5.0f, 15.0f, 2, "oreSapphire"),
