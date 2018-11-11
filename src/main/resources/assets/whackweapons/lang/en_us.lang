@@ -18,3 +18,5 @@ tile.RUBY_ORE_BLOCK.name=Ruby Ore
 tile.TOPAZ_ORE_BLOCK.name=Topaz Ore
 tile.EGG_ORE_T_BLOCK.name=Egg-Ore-T
 tile.TEST_BLOCK.name=Test Block
+
+enchantment.EGG_ENCHANTMENT=Egg Hurt

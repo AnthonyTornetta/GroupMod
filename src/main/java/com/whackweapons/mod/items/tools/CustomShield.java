@@ -15,7 +15,7 @@ public class CustomShield extends ItemShield implements IHasModel
 		setRegistryName(name);
 		setUnlocalizedName(name);
 		
-		setCreativeTab(CreativeTabs.TOOLS);
+		setCreativeTab(CreativeTabs.COMBAT);
 		
 		CustomItems.addItem(this);
 	}
