@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "pattern":
     [
-        "X",
-        "X",
-        "S"
+        "XXX",
+        " S ",
+        " S "
     ],
     "key":
     {
         "X":
         {
             "type": "forge:ore_dict",
-            "ore": "gemRuby"
+            "ore": "gemSapphire"
         },
         "S":
         {
@@ -21,6 +21,6 @@
     },
     "result":
     {
-        "item": "whackweapons:ruby_sword"
+        "item": "whackweapons:sapphire_pickaxe"
     }
 }

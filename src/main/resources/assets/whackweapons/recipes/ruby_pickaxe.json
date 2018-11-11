@@ -2,9 +2,9 @@
     "type": "minecraft:crafting_shaped",
     "pattern":
     [
-        "X",
-        "X",
-        "S"
+        "XXX",
+        " S ",
+        " S "
     ],
     "key":
     {
@@ -21,6 +21,6 @@
     },
     "result":
     {
-        "item": "whackweapons:ruby_sword"
+        "item": "whackweapons:ruby_pickaxe"
     }
 }

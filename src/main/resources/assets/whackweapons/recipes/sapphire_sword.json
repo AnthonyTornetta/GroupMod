@@ -11,7 +11,7 @@
         "X":
         {
             "type": "forge:ore_dict",
-            "ore": "gemRuby"
+            "ore": "gemSapphire"
         },
         "S":
         {
@@ -21,6 +21,6 @@
     },
     "result":
     {
-        "item": "whackweapons:ruby_sword"
+        "item": "whackweapons:sapphire_sword"
     }
 }

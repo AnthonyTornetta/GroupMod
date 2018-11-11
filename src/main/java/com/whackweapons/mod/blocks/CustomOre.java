@@ -13,15 +13,16 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class CustomOre extends BlockBase
 {
 	private Item drop;
 	private boolean dropSelf;
 	
-	public CustomOre(String name, Item drop, boolean dropSelf, float hardness, float resistance, int harvestLevel)
+	public CustomOre(String name, Item drop, boolean dropSelf, float hardness, float resistance, int harvestLevel, String oreDictName)
 	{
-		super(name, Material.ROCK);
+		super(name, Material.ROCK, oreDictName);
 		this.drop = drop;
 		
 		setSoundType(SoundType.STONE);
