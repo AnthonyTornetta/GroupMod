@@ -31,7 +31,7 @@ item.EGG_ORE_T_HOE.name=Egg-Ore-T Hoe
 item.EGG_ORE_T_AXE.name=Egg-Ore-T Axe
 item.EGG_ORE_T_PICKAXE.name=Egg-Ore-T Pickaxe
 item.EGG_ORE_T_SHIELD.name=Egg-Ore-T Shield
-item.EGG_ORE_T_ITEM.name=Egg-Ore-T Ingot
+item.EGG_ORE_T_INGOT.name=Egg-Ore-T Ingot
 
 tile.SAPPHIRE_ORE_BLOCK.name=Sapphire Ore
 tile.RUBY_ORE_BLOCK.name=Ruby Ore
