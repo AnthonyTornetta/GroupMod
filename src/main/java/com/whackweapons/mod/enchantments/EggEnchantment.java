@@ -6,6 +6,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.passive.EntityChicken;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 
 public class EggEnchantment extends Enchantment
@@ -21,13 +22,19 @@ public class EggEnchantment extends Enchantment
     /**
      * Called whenever a mob is damaged with an item that has this enchantment on it.
      */
+	@Override
     public void onEntityDamaged(EntityLivingBase user, Entity target, int level)
     {
-    	BigChicken eggert = new BigChicken(user.world);
+		System.out.println("ASDF");
+    	EntityChicken eggert = new EntityChicken(user.world);
+    	eggert.setScaleForAge(true);
     	eggert.posX = target.posX;
     	eggert.posY = target.posY;
     	eggert.posZ = target.posZ;
     	eggert.motionY = 5;
-    	user.world.spawnEntity(eggert);
+    	if(user.world.spawnEntity(eggert))
+    		System.out.println("Ayyye");
+    	else
+    		System.out.println("Neeee");
     }
 }

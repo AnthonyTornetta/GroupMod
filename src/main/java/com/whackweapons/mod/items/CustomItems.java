@@ -41,27 +41,33 @@ public class CustomItems
 		SAPPHIRE_MATERIAL = EnumHelper.addToolMaterial("SAPPHIRE_MATERIAL", 3, 1200, 8.0f, 8.0f, 16), 
 		TOPAZ_MATERIAL = EnumHelper.addToolMaterial("TOPAZ_MATERIAL", 3, 1200, 8.0f, 8.0f, 16), 
 		RUBY_MATERIAL = EnumHelper.addToolMaterial("RUBY_MATERIAL", 3, 1200, 8.0f, 8.0f, 16),
-		EGG_ORE_T_MATERIAL = EnumHelper.addToolMaterial("EGG_ORE_T_MATERIAL", 4, 2000, 16, 16, 30);
+		EGG_ORE_T_MATERIAL = EnumHelper.addToolMaterial("EGG_ORE_T_MATERIAL", 4, 2000, 20, 16, 30);
 	
-	public static final Item SAPPHIRE_ITEM = new ItemBase("SAPPHIRE_ITEM", CreativeTabs.MATERIALS, "gemSapphire");
-	public static final Item RUBY_ITEM = new ItemBase("RUBY_ITEM", CreativeTabs.MATERIALS, "gemRuby");
-	public static final Item TOPAZ_ITEM = new ItemBase("TOPAZ_ITEM", CreativeTabs.MATERIALS, "gemTopaz");
-	
-	public static final Item RUBY_SWORD = new CustomSword("RUBY_SWORD", RUBY_MATERIAL);
-	public static final Item TOPAZ_SWORD = new CustomSword("TOPAZ_SWORD", SAPPHIRE_MATERIAL);
-	public static final Item SAPPHIRE_SWORD = new CustomSword("SAPPHIRE_SWORD", SAPPHIRE_MATERIAL);
-	
-	public static final Item RUBY_PICKAXE = new CustomPickaxe("RUBY_PICKAXE", RUBY_MATERIAL);
-	public static final Item TOPAZ_PICKAXE = new CustomPickaxe("TOPAZ_PICKAXE", SAPPHIRE_MATERIAL);
-	public static final Item SAPPHIRE_PICKAXE = new CustomPickaxe("SAPPHIRE_PICKAXE", SAPPHIRE_MATERIAL);
-	
-	public static final Item RUBY_AXE = new CustomAxe("RUBY_AXE", RUBY_MATERIAL);
-	public static final Item TOPAZ_AXE = new CustomAxe("TOPAZ_AXE", RUBY_MATERIAL);
-	public static final Item SAPPHIRE_AXE = new CustomAxe("SAPPHIRE_AXE", RUBY_MATERIAL);
-	
-	public static final Item RUBY_SHIELD = new CustomShield("RUBY_SHIELD");
-	public static final Item TOPAZ_SHIELD = new CustomShield("TOPAZ_SHIELD");
-	public static final Item SAPPHIRE_SHIELD = new CustomShield("SAPPHIRE_SHIELD");
+	public static final Item 
+		SAPPHIRE_ITEM = new ItemBase("SAPPHIRE_ITEM", CreativeTabs.MATERIALS, "gemSapphire"),
+		RUBY_ITEM = new ItemBase("RUBY_ITEM", CreativeTabs.MATERIALS, "gemRuby"),
+		TOPAZ_ITEM = new ItemBase("TOPAZ_ITEM", CreativeTabs.MATERIALS, "gemTopaz"),
+		EGG_ORE_T_INGOT = new ItemBase("EGG_ORE_T_INGOT", CreativeTabs.MATERIALS, "ingotEggOreT"),
+		
+		RUBY_SWORD = new CustomSword("RUBY_SWORD", RUBY_MATERIAL),
+		TOPAZ_SWORD = new CustomSword("TOPAZ_SWORD", SAPPHIRE_MATERIAL),
+		SAPPHIRE_SWORD = new CustomSword("SAPPHIRE_SWORD", SAPPHIRE_MATERIAL),
+		EGG_ORE_T_SWORD = new CustomSword("EGG_ORE_T_SWORD", EGG_ORE_T_MATERIAL),
+		
+		RUBY_PICKAXE = new CustomPickaxe("RUBY_PICKAXE", RUBY_MATERIAL),
+		TOPAZ_PICKAXE = new CustomPickaxe("TOPAZ_PICKAXE", SAPPHIRE_MATERIAL),
+		SAPPHIRE_PICKAXE = new CustomPickaxe("SAPPHIRE_PICKAXE", SAPPHIRE_MATERIAL),
+		EGG_ORE_T_PICKAXE = new CustomPickaxe("EGG_ORE_T_PICKAXE", EGG_ORE_T_MATERIAL),
+		
+		RUBY_AXE = new CustomAxe("RUBY_AXE", RUBY_MATERIAL),
+		TOPAZ_AXE = new CustomAxe("TOPAZ_AXE", RUBY_MATERIAL),
+		SAPPHIRE_AXE = new CustomAxe("SAPPHIRE_AXE", RUBY_MATERIAL),
+		EGG_ORE_T_AXE = new CustomAxe("EGG_ORE_T_AXE", EGG_ORE_T_MATERIAL),
+		
+		RUBY_SHIELD = new CustomShield("RUBY_SHIELD"),
+		TOPAZ_SHIELD = new CustomShield("TOPAZ_SHIELD"),
+		SAPPHIRE_SHIELD = new CustomShield("SAPPHIRE_SHIELD"),
+		EGG_ORE_T_SHIELD = new CustomShield("EGG_ORE_T_SHIELD");
 	
 	public static void addItem(Item i) { ITEMS.add(i); }
 }

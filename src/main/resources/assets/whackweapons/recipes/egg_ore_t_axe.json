@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "XX",
+        "XS",
+        " S"
+    ],
+    "key":
+    {
+        "X":
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotEggOreT"
+        },
+        "S":
+        {
+			"type": "forge:ore_dict",
+            "ore": "stickWood"
+        }
+    },
+    "result":
+    {
+        "item": "whackweapons:egg_ore_t_axe"
+    }
+}
