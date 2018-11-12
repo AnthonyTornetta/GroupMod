@@ -2,14 +2,23 @@ item.TEST_ITEM.name=Test Item
 item.TEST_SWORD.name=Test Sword
 
 item.SAPPHIRE_SWORD.name=Sapphire Sword
+item.SAPPHIRE_SHOVEL.name=Sapphire Shovel
+item.SAPPHIRE_HOE.name=Sapphire Hoe
+item.SAPPHIRE_AXE.name=Sapphire Axe
 item.SAPPHIRE_PICKAXE.name=Sapphire Pickaxe
 item.SAPPHIRE_ITEM.name=Sapphire
 
 item.TOPAZ_SWORD.name=Topaz Sword
+item.TOPAZ_SHOVEL.name=Topaz Shovel
+item.TOPAZ_HOE.name=Topaz Hoe
+item.TOPAZ_AXE.name=Topaz Axe
 item.TOPAZ_PICKAXE.name=Topaz Pickaxe
 item.TOPAZ_ITEM.name=Topaz
 
 item.RUBY_SWORD.name=Ruby Sword
+item.RUBY_SHOVEL.name=Ruby Shovel
+item.RUBY_HOE.name=Ruby Hoe
+item.RUBY_AXE.name=Ruby Axe
 item.RUBY_PICKAXE.name=Ruby Pickaxe
 item.RUBY_ITEM.name=Ruby
 

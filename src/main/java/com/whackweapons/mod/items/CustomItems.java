@@ -5,8 +5,10 @@ import java.util.List;
 
 import com.whackweapons.mod.items.tools.CustomAxe;
 import com.whackweapons.mod.items.tools.CustomBow;
+import com.whackweapons.mod.items.tools.CustomHoe;
 import com.whackweapons.mod.items.tools.CustomPickaxe;
 import com.whackweapons.mod.items.tools.CustomShield;
+import com.whackweapons.mod.items.tools.CustomShovel;
 import com.whackweapons.mod.items.tools.CustomSword;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -58,6 +60,14 @@ public class CustomItems
 	public static final Item RUBY_AXE = new CustomAxe("RUBY_AXE", RUBY_MATERIAL);
 	public static final Item TOPAZ_AXE = new CustomAxe("TOPAZ_AXE", RUBY_MATERIAL);
 	public static final Item SAPPHIRE_AXE = new CustomAxe("SAPPHIRE_AXE", RUBY_MATERIAL);
+	
+	public static final Item RUBY_SHOVEL = new CustomShovel("RUBY_SHOVEL", RUBY_MATERIAL);
+	public static final Item TOPAZ_SHOVEL = new CustomShovel("TOPAZ_SHOVEL", RUBY_MATERIAL);
+	public static final Item SAPPHIRE_SHOVEL = new CustomShovel("SAPPHIRE_SHOVEL", RUBY_MATERIAL);
+	
+	public static final Item RUBY_HOE = new CustomHoe("RUBY_HOE", RUBY_MATERIAL);
+	public static final Item TOPAZ_HOE = new CustomHoe("TOPAZ_HOE", RUBY_MATERIAL);
+	public static final Item SAPPHIRE_HOE = new CustomHoe("SAPPHIRE_HOE", RUBY_MATERIAL);
 	
 	public static final Item RUBY_SHIELD = new CustomShield("RUBY_SHIELD");
 	public static final Item TOPAZ_SHIELD = new CustomShield("TOPAZ_SHIELD");
