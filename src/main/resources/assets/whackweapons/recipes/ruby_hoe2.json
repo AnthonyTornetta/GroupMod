@@ -11,7 +11,7 @@
         "X":
         {
             "type": "forge:ore_dict",
-            "ore": "ingotEggOreT"
+            "ore": "gemRuby"
         },
         "S":
         {
@@ -21,6 +21,6 @@
     },
     "result":
     {
-        "item": "whackweapons:egg_ore_t_axe"
+        "item": "whackweapons:ruby_axe"
     }
 }

@@ -3,15 +3,15 @@
     "pattern":
     [
         "XX",
-        "S ",
-        "S "
+        " S",
+        " S"
     ],
     "key":
     {
         "X":
         {
             "type": "forge:ore_dict",
-            "ore": "ingotEggOreT"
+            "ore": "gemTopaz"
         },
         "S":
         {
@@ -21,6 +21,6 @@
     },
     "result":
     {
-        "item": "whackweapons:egg_ore_t_axe"
+        "item": "whackweapons:topaz_axe"
     }
 }

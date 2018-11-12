@@ -2,9 +2,9 @@
     "type": "minecraft:crafting_shaped",
     "pattern":
     [
-        "XX",
-        "S ",
-        "S "
+        "I I",
+        "IXI",
+        " I "
     ],
     "key":
     {
@@ -13,10 +13,10 @@
             "type": "forge:ore_dict",
             "ore": "ingotEggOreT"
         },
-        "S":
+        "I":
         {
 			"type": "forge:ore_dict",
-            "ore": "stickWood"
+            "ore": "ingotIron"
         }
     },
     "result":

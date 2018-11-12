@@ -2,25 +2,25 @@
     "type": "minecraft:crafting_shaped",
     "pattern":
     [
-        "XX",
-        "S ",
-        "S "
+        "I I",
+        "IXI",
+        " I "
     ],
     "key":
     {
         "X":
         {
             "type": "forge:ore_dict",
-            "ore": "ingotEggOreT"
+            "ore": "gemTopaz"
         },
-        "S":
+        "I":
         {
 			"type": "forge:ore_dict",
-            "ore": "stickWood"
+            "ore": "ingotIron"
         }
     },
     "result":
     {
-        "item": "whackweapons:egg_ore_t_axe"
+        "item": "whackweapons:topaz_axe"
     }
 }
