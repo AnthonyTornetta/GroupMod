@@ -21,11 +21,10 @@ public class CustomBlocks
 	
 	static
 	{
-		// BUMP DOWN ORE COMMONALITY
-		CustomWorldGeneration.addOre(EGG_ORE_T_BLOCK   , 5, 10, 1, 64, 80);
-		CustomWorldGeneration.addOre(RUBY_ORE_BLOCK    , 2, 5, 1, 16, 20);
-		CustomWorldGeneration.addOre(SAPPHIRE_ORE_BLOCK, 2, 5, 1, 16, 20);
-		CustomWorldGeneration.addOre(TOPAZ_ORE_BLOCK   , 2, 5, 1, 16, 20);
+		CustomWorldGeneration.addOre(EGG_ORE_T_BLOCK   , 2, 4, 1, 16, 5);
+		CustomWorldGeneration.addOre(RUBY_ORE_BLOCK    , 2, 5, 1, 16, 10);
+		CustomWorldGeneration.addOre(SAPPHIRE_ORE_BLOCK, 2, 5, 1, 16, 10);
+		CustomWorldGeneration.addOre(TOPAZ_ORE_BLOCK   , 2, 5, 1, 16, 10);
 	}
 	
 	public static void add(Block b)

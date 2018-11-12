@@ -67,6 +67,9 @@ public class WhackWeapons
 		}
         
     	GameRegistry.addSmelting(CustomBlocks.RUBY_ORE_BLOCK, new ItemStack(CustomItems.RUBY_ITEM), 20f);
+    	GameRegistry.addSmelting(CustomBlocks.SAPPHIRE_ORE_BLOCK, new ItemStack(CustomItems.SAPPHIRE_ITEM), 20f);
+    	GameRegistry.addSmelting(CustomBlocks.TOPAZ_ORE_BLOCK, new ItemStack(CustomItems.TOPAZ_ITEM), 20f);
+    	GameRegistry.addSmelting(CustomBlocks.EGG_ORE_T_BLOCK, new ItemStack(CustomItems.EGG_ORE_T_INGOT), 50f);
     }
     
     @EventHandler
