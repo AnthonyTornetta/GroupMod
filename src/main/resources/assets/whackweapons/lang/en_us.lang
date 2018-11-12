@@ -6,6 +6,7 @@ item.SAPPHIRE_SHOVEL.name=Sapphire Shovel
 item.SAPPHIRE_HOE.name=Sapphire Hoe
 item.SAPPHIRE_AXE.name=Sapphire Axe
 item.SAPPHIRE_PICKAXE.name=Sapphire Pickaxe
+item.SAPPHIRE_SHIELD.name=Sapphire Shield
 item.SAPPHIRE_ITEM.name=Sapphire
 
 item.TOPAZ_SWORD.name=Topaz Sword
@@ -13,6 +14,7 @@ item.TOPAZ_SHOVEL.name=Topaz Shovel
 item.TOPAZ_HOE.name=Topaz Hoe
 item.TOPAZ_AXE.name=Topaz Axe
 item.TOPAZ_PICKAXE.name=Topaz Pickaxe
+item.TOPAZ_SHIELD.name=Topaz Shield
 item.TOPAZ_ITEM.name=Topaz
 
 item.RUBY_SWORD.name=Ruby Sword
@@ -20,7 +22,16 @@ item.RUBY_SHOVEL.name=Ruby Shovel
 item.RUBY_HOE.name=Ruby Hoe
 item.RUBY_AXE.name=Ruby Axe
 item.RUBY_PICKAXE.name=Ruby Pickaxe
+item.RUBY_SHIELD.name=Ruby Shield
 item.RUBY_ITEM.name=Ruby
+
+item.EGG_ORE_T_SWORD.name=Egg-Ore-T Sword
+item.EGG_ORE_T_SHOVEL.name=Egg-Ore-T Shovel
+item.EGG_ORE_T_HOE.name=Egg-Ore-T Hoe
+item.EGG_ORE_T_AXE.name=Egg-Ore-T Axe
+item.EGG_ORE_T_PICKAXE.name=Egg-Ore-T Pickaxe
+item.EGG_ORE_T_SHIELD.name=Egg-Ore-T Shield
+item.EGG_ORE_T_ITEM.name=Egg-Ore-T Ingot
 
 tile.SAPPHIRE_ORE_BLOCK.name=Sapphire Ore
 tile.RUBY_ORE_BLOCK.name=Ruby Ore
